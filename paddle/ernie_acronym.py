@@ -3,7 +3,7 @@ from paddlenlp.transformers import ErnieForQuestionAnswering
 from paddlenlp.transformers import ErnieTokenizer
 import sys
 
-ernie = 'ernie_v2_eng_base_finetuned_squad'
+ernie = 'ernie-2.0-en-finetuned-squad'
 model = ErnieForQuestionAnswering.from_pretrained(ernie)
 tokenizer = ErnieTokenizer.from_pretrained(ernie)
 
